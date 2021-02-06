@@ -386,7 +386,7 @@ async function starts() {
 					ownerB: '[❗] Perintah ini hanya bisa di gunakan oleh owner bot! ❌',
 					admin: '[❗] Perintah ini hanya bisa di gunakan oleh admin group! ❌',
 					Badmin: '[❗] Perintah ini hanya bisa di gunakan ketika bot menjadi admin! ❌',
-                                        daftarB: `──「 BELUM REGISTER 」──\nHalo Sayang !\nKamu belum Register , register dulu Cok... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Zan|14`,
+                                        daftarB: `──「 BELUM REGISTER 」──\nHalo Everyone !\nKamu belum Register , register dulu Cok... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Zan|14`,
 				}
 			}
     			const apakah = ['Ya','Tidak']
