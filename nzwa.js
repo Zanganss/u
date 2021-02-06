@@ -101,7 +101,7 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
 prefix = '.'
 blocked = []
 limitawal = '20'
-cr = '*Verified*'
+cr = '*Zan Ganteng Karina Jelek:V*'
 
 // Functions
 const getLevelingXp = (userId) => {
