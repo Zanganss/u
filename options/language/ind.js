@@ -1,5 +1,5 @@
 exports.wait = () => {
-        return `⌛ Sedang di Prosess ⌛`
+        return `⌛ Sedang Prosess Tod Sabar ⌛`
 }
 
 exports.timeEnd = () => {
@@ -7,7 +7,7 @@ exports.timeEnd = () => {
 }
 
 exports.succsess = () => {
-        return `✔️ Berhasil ✔️`
+        return `✔️ Berhasil Oy ✔️`
 }
 
 exports.levelon = () => {
