@@ -389,7 +389,7 @@ async function starts() {
                                         daftarB: `──「 BELUM REGISTER 」──\nHalo Everyone !\nKamu belum Register , register dulu Cok... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Zan|14`,
 				}
 			}
-    			const apakah = ['Ya','Tidak','mungkin]
+    			const apakah = ['Ya','Tidak']
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
@@ -932,6 +932,7 @@ let util = require('util')
 				
 let path = require('path')
 let { spawn } = require('child_process')
+if (!isRegister) return reply(mess.only.daftarB)
 
 // Font By MFarelS:V
 let fontPath = 'assets/font/Zahraaa.ttf'
@@ -2449,7 +2450,7 @@ module.exports = handler
                                         if (isLimit(sender)) return reply(ind.limitend(pushname))
                                         if (!isEventon) return reply(`maaf ${pushname} event mining tidak di aktifkan oleh owner`)
                                         if (isOwner) {
-                                                const one = 999999999
+                                                const one = 9999999999999999
                                                 addLevelingXp(sender, one)
                                                 addLevelingLevel(sender, 99)
                                                 reply(`karena anda owner kami dari team bot mengirim ${one}Xp untuk anda`)
