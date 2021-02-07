@@ -921,18 +921,22 @@ async function starts() {
 						buffer = fs.readFileSync(rano)
 						client.sendMessage(from, buffer, sticker)
 						fs.unlinkSync(rano)
-					})
-					break*/
-				case 'nulis':
-				case 'tulis':
-					let util = require('util')
+})
+break*/
+case 'nulis':
+case 'tulis':
+let util = require('util')				
+			
+				
+				
+				
 let path = require('path')
 let { spawn } = require('child_process')
 
 // Font By MFarelS:V
-let fontPath = 'src/font/Zahraaa.ttf'
+let fontPath = 'assets/font/Zahraaa.ttf'
 let handler  = async (m, { conn, args }) => {
-  let inputPath ='assets/nulis.jpg'
+  let inputPath ='assets/kertas/nulis.jpg'
   let outputPath = 'tmp/hasil.jpg'
   let d = new Date
   let tgl = d.toLocaleDateString('id-Id')
