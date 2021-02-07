@@ -318,7 +318,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject}*`
+				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group *${mdata.subject} Intro Yah Om Nama: Umur: Hobi: Gender:*`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -328,7 +328,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Sayonara @${num.split('@')[0]}👋`
+				teks = `Sayonara @${num.split('@')[0]}👋 1 Beban Keluarga Telah Keluar:v `
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -389,7 +389,7 @@ async function starts() {
                                         daftarB: `──「 BELUM REGISTER 」──\nHalo Everyone !\nKamu belum Register , register dulu Cok... \n\nCommand : ${prefix}register nama|umur\nContoh : ${prefix}register Zan|14`,
 				}
 			}
-    			const apakah = ['Ya','Tidak']
+    			const apakah = ['Ya','Tidak','mungkin]
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
@@ -444,7 +444,7 @@ async function starts() {
             try {
                 if (currentLevel === undefined && checkId === undefined) addLevelingId(sender)
                 const amountXp = Math.floor(Math.random() * 10) + 500
-                const requiredXp = 1000000 * (Math.pow(2, currentLevel) - 1)
+                const requiredXp = 500000 * (Math.pow(2, currentLevel) - 1)
                 const getLevel = getLevelingLevel(sender)
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
@@ -739,7 +739,7 @@ async function starts() {
               case 'owner':
                 case 'creator':
                   client.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-               client.sendMessage(from, 'Nih nomor ownerku kak, save ya kak nanti di save balik',MessageType.text, { quoted: mek} )
+               client.sendMessage(from, 'Nih nomor Pacarku Kak, Eh Owner ku:v',MessageType.text, { quoted: mek} )
                 break
 	case 'hidetag':
                 client.updatePresence(from, Presence.composing) 
