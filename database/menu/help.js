@@ -8,12 +8,14 @@ const help = (pushname, prefix, botName, ownerName, reqXp, uangku) => {
    ┠≽ *XP* : ${reqXp}
    ┠≽ *Money* : ${uangku}
    ┠≽ *Registered : ✔️
+   ┠≽ *jeda 5detik yah Biar ga error!!*
    ╿
 ┯┷ *〈 BOT INFO 〉*
 ╽
 ┠≽ *Prefix* : 「  ${prefix}  」
 ┠≽ *Creator* : ${ownerName}
 ┠≽ *Version* : 0.0.5
+┠≽ *Update* : 6 Febuary 2021 17.39 Wita
 ╿
 ┷┯ *〈 MENU 〉*
    ┠≽ *${prefix}logomakermenu*
